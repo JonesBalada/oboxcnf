@@ -1,0 +1,2 @@
+# oboxcnf
+OpenBox - configuration
