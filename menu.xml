@@ -6,6 +6,12 @@
                                   file:///usr/share/openbox/menu.xsd">
 
   <menu id="root-menu" label="Openbox 3">
+      <item label="a - chromiumUrl">
+          <action name="Execute"><execute>~/.yy/churl-parm.sh a</execute></action>
+      </item>
+      <item label="b - chromiumUrl">
+          <action name="Execute"><execute>~/.yy/churl-parm.sh b</execute></action>
+      </item>
     <item label="Chromium">
       <action name="Execute"><execute>~/.scripts/only_chromium.sh</execute></action>
     </item>
@@ -26,6 +32,9 @@
     <item label="Firefox Web browser">
       <action name="Execute"><execute>~/.scripts/firefox_only.sh</execute></action>
     </item>
+    <item label="i - chromiumUrl">
+        <action name="Execute"><execute>~/.yy/churl-parm.sh i</execute></action>
+    </item>
     <menu id="libreoffice" label="Libre office">
       <item label="calc">
         <action name="Execute"><execute>libreoffice --calc</execute></action>
@@ -43,8 +52,8 @@
     <item label="sql">
       <action name="Execute"><execute>bash ~/apl/sqldeveloper/sqldeveloper.sh</execute></action>
     </item>
-    <item label="y - chromiumUrl">
-      <action name="Execute"><execute>~/.yy/churl.sh</execute></action>
+    <item label="t - chromiumUrl">
+        <action name="Execute"><execute>~/.yy/churl-parm.sh t</execute></action>
     </item>
     <menu id="outros" label="z outros">
       <item label="gimp">
