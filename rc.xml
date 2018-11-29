@@ -1266,53 +1266,5 @@
         <application class="*">
             <decor>no</decor>
         </application>
-        <application name="emacs-25_3"
-                     class="Emacs"
-                     groupname="emacs-25-3"
-                     groupclass="Emacs-25.3"
-                     title="emacs-25.3@serpro-1546235"
-                     type="normal">
-
-            <position force="yes">
-                <!-- # the position is only used if both an x and y coordinate are provided -->
-                <!-- # (and not set to 'default') -->
-                <!-- # when force is "yes", then the window will be placed here even if it -->
-                <!-- # says you want it placed elsewhere.  this is to override buggy -->
-                <!-- # applications who refuse to behave -->
-                <x>center</x>
-                <!-- # a number like 50, or 'center' to center on screen. use a negative number -->
-                <!-- # to start from the right (or bottom for <y>), ie -50 is 50 pixels from -->
-                <!-- # the right edge (or bottom). use 'default' to specify using value -->
-                <!-- # provided by the application, or chosen by openbox, instead. -->
-                <y>center</y>
-                <monitor>1</monitor>
-                <!-- # specifies the monitor in a xinerama setup. -->
-                <!-- # 1 is the first head, or 'mouse' for wherever the mouse is -->
-            </position>
-
-            <size>
-                # the size to make the window.
-                <width>142</width>
-                <!-- # a number like 20, or 'default' to use the size given by the application. -->
-                <!-- # you can use fractions such as 1/2 or percentages such as 75% in which -->
-                <!-- # case the value is relative to the size of the monitor that the window -->
-                <!-- # appears on. -->
-                <height>42</height>
-            </size>
-
-            <focus>no</focus>
-            <!-- # if the window should try be given focus when it appears. if this is set
-                 # to yes it doesn't guarantee the window will be given focus. some
-                 # restrictions may apply, but Openbox will try to
-            -->
-            <desktop>4</desktop>
-            <!-- # 1 is the first desktop, 'all' for all desktops -->
-
-            <layer>normal</layer>
-            <!-- # 'above', 'normal', or 'below' -->
-
-            <iconic>no</iconic>
-            <!-- # make the window iconified when it appears, or not -->
-        </application>
     </applications>
 </openbox_config>

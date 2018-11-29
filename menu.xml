@@ -7,7 +7,7 @@
 
     <menu id="root-menu" label="Openbox 3">
         <item label="a - chromiumUrl">
-            <action name="Execute"><execute>~/.yy/churl-parm.sh a</execute></action>
+            <action name="Execute"><execute>~/.yy/ffurl-parm.sh a</execute></action>
         </item>
         <item label="b - chromiumUrl">
             <action name="Execute"><execute>~/.yy/churl-parm.sh b</execute></action>
@@ -16,17 +16,20 @@
             <action name="Execute"><execute>~/.scripts/only_chromium.sh</execute></action>
         </item>
         <menu id="eclipse" label="eclipse">
+            <item label="3a">
+                <action name="Execute"><execute>/apl/eclipse-jee-oxygen-3a/eclipse</execute></action>
+            </item>
             <item label="alm">
                 <action name="Execute"><execute>/usr/share/eclipse-alm5.0.2/eclipse</execute></action>
             </item>
-            <item label="lucas">
-                <action name="Execute"><execute>/opt/eclipse/eclipse</execute></action>
-            </item>
             <item label="oxygen">
-                <action name="Execute"><execute>/home/00737990929/apl/eclipse64-oxygen/eclipse</execute></action>
+                <action name="Execute"><execute>/apl/eclipse64-oxygen/eclipse</execute></action>
             </item>
-            <item label="3a">
-                <action name="Execute"><execute>/home/00737990929/apl/eclipse-jee-oxygen-3a/eclipse</execute></action>
+            <item label="sonar-ide">
+                <action name="Execute"><execute>/apl/eclipse-sonar-oxygen/eclipse</execute></action>
+            </item>
+            <item label="zonar-neon">
+                <action name="Execute"><execute>/apl/eclipse-neon3-alm-sonarLint/eclipse</execute></action>
             </item>
         </menu>
         <item label="Firefox Web browser">
@@ -49,6 +52,9 @@
         <item label="pidgin">
             <action name="Execute"><execute>pidgin</execute></action>
         </item>
+        <item label="qutebrowser">
+            <action name="Execute"><execute>bash /apl/qutebrowser/qb.sh > /home/00737990929/apl/qutebrowser/qb.log</execute></action>
+        </item>
         <item label="sql">
             <action name="Execute"><execute>bash ~/apl/sqldeveloper/sqldeveloper.sh</execute></action>
         </item>
@@ -56,11 +62,20 @@
             <action name="Execute"><execute>~/.yy/churl-parm.sh t</execute></action>
         </item>
         <menu id="outros" label="z outros">
+            <item label="1">
+                <action name="Execute"><execute>bash /hoje/shidfr.sh</execute></action>
+            </item>
+            <item label="filezilla">
+                <action name="Execute"><execute>filezilla</execute></action>
+            </item>
             <item label="gimp">
                 <action name="Execute"><execute>gimp</execute></action>
             </item>
             <item label="inkscape">
                 <action name="Execute"><execute>inkscape</execute></action>
+            </item>
+            <item label="moto">
+                <action name="Execute"><execute>/ymx1pow</execute></action>
             </item>
             <item label="spacemacs">
                 <action name="Execute"><execute>emacs24</execute></action>
@@ -75,7 +90,7 @@
         <menu id="client-list-menu" />
         <separator />
         <item label="3 tres">
-            <action name="Execute"><execute>bash /home/00737990929/out/util/tres.sh</execute></action>
+            <action name="Execute"><execute>bash /out/util/tres.sh</execute></action>
         </item>
         <item label="6 hora">
             <action name="Execute"><execute>osdctl -t 4</execute></action>
