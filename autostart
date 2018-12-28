@@ -1,1 +1,4 @@
-bash ~/.scripts/obox-autostart.sh
+bash ~/teclado.sh & guake &
+xsetroot -solid darkred &
+pidgin & thunderbird &
+
