@@ -1,4 +1,4 @@
 bash ~/teclado.sh & guake &
-xsetroot -solid darkred &
+xsetroot -solid black &
 pidgin & thunderbird &
 
