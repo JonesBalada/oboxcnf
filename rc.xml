@@ -918,8 +918,19 @@
                 <!-- <action name="FocusToBottom"/> -->
                 <!-- <action name="Unfocus"/> -->
             </mousebind>
+            <mousebind button="W-Middle" action="Click">
+                <action name="MoveResizeTo">
+                    <monitor>1</monitor>
+                </action>
+            </mousebind>
             <mousebind button="W-Left" action="Click">
                 <action name="ToggleMaximizeFull"/>
+            </mousebind>
+            <mousebind button="W-A-Right" action="Click">
+                <action name="MoveResizeTo">
+                    <width>900</width>
+                    <height>500</height>
+                </action>
             </mousebind>
             <mousebind button="W-S-Right" action="Click">
                 <action name="MoveResizeTo">

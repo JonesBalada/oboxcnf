@@ -1,4 +1,4 @@
 bash ~/teclado.sh & guake &
 xsetroot -solid black &
 pidgin & thunderbird &
-
+xrandr --output DP-1 --rotate left --left-of HDMI-1 &

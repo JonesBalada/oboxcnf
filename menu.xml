@@ -17,7 +17,7 @@
         </item>
         <menu id="eclipse" label="eclipse">
             <item label="3a">
-                <action name="Execute"><execute>/apl/eclipse-jee-oxygen-3a/eclipse</execute></action>
+                <action name="Execute"><execute>~/apl/eclipse-jee-oxygen-3a/eclipse</execute></action>
             </item>
             <item label="alm">
                 <action name="Execute"><execute>/usr/share/eclipse-alm5.0.2/eclipse</execute></action>
@@ -26,7 +26,7 @@
                 <action name="Execute"><execute>~/apl/eclipse-2018-09/eclipse</execute></action>
             </item>
             <item label="sonar-ide">
-                <action name="Execute"><execute>/apl/eclipse-sonar-oxygen/eclipse</execute></action>
+                <action name="Execute"><execute>~/apl/eclipse-jee-2018-12-R/eclipse</execute></action>
             </item>
             <item label="zonar-neon">
                 <action name="Execute"><execute>/apl/eclipse-neon3-alm-sonarLint/eclipse</execute></action>
